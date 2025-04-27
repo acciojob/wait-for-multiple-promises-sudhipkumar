@@ -5,6 +5,7 @@ const output = document.getElementById("output");
 
 // Step 1: Add Loading... row initially
 const loadingRow = document.createElement("tr");
+loadingRow.id = "loading";
 const loadingCell = document.createElement("td");
 loadingCell.colSpan = 2;
 loadingCell.textContent = "Loading...";
